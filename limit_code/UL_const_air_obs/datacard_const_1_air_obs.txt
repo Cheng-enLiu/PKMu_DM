@@ -1,0 +1,22 @@
+imax 1
+jmax 3
+kmax 4
+---------------
+shapes h_mu * /home/pku/liuce/ULCombine_copy/Hist.root h_mu h_mu_$SYSTEMATIC
+shapes h_e * /home/pku/liuce/ULCombine_copy/Hist.root h_e h_e_$SYSTEMATIC
+shapes h_other * /home/pku/liuce/ULCombine_copy/Hist.root h_other h_other_$SYSTEMATIC
+shapes h_sig * /home/pku/liuce/ULCombine_copy/Hist.root h_const_1 h_const_1_$SYSTEMATIC 
+shapes data_obs * /home/pku/liuce/ULCombine_copy/Hist.root h_obs
+---------------
+bin bin1
+observation -1
+------------------------------
+bin             bin1    bin1	bin1	bin1
+process		h_sig	h_mu    h_e     h_other
+process         0       1       2       3
+rate            -1      -1      -1      -1
+------------------------------
+percentage	lnN	1.0139	1.0139	1.0093	1.0154
+sigma           shape	1	1	1	1
+factor		lnN	1.1480	1.1480	1.0460	-
+alpha		shape	1	1	1	-
