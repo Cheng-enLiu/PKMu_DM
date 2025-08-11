@@ -1,7 +1,7 @@
 # PKMu_DM
 Observed data and analysis code
 
-obs_data_250212_63_air – Measured experimental data.
+obs_data_250212_63_air – Measured experimental data. The data provided here are not the original files; please feel free to contact us if needed.
 
 combine_fit_code – Fitting code used to produce Figure 3 in the paper.
 
